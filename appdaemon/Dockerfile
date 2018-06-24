@@ -14,7 +14,7 @@ RUN \
         python3=3.6.3-r9 \
     \
     && pip3 install \
-        appdaemon==3.0.1 \
+        https://github.com/algirdasc/appdaemon/archive/master.zip \
         yq==2.6.0 \
     \
     && apk del --purge .build-dependencies
